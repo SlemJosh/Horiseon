@@ -4,10 +4,12 @@
     padding: 0;
     margin: 0;
 }
+
 /*The following is to be applied to everything in the body*/
 body {
     background-color: #d9dcd6;
 }
+
 /*The following is to be applied to the header section*/
 .header {
     padding: 20px;
@@ -41,15 +43,18 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
 /*applies style to the a sections*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
 /*applies style to the p sections*/
 p {
     font-size: 16px;
 }
+
 /*Specific style meant for the background image underneath the header*/
 .hero {
     height: 800px;
@@ -59,6 +64,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+
 /*reorganized the style sheet for the flow, content > images > float"*/
 /*styles applied to the content section*/
 .content {
@@ -66,18 +72,23 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
 /*styles used for the image orientation in the content section*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
 /*reorganized all the content section to be near the other content styles*/
 /*Consolidated the same styles into one command vs three seperate ones */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -85,15 +96,22 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 /*Consolidated the same styles into one command vs three seperate ones */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
     max-height: 200px;
 }
+
 /*Consolidation of 3 commands into 1*/
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2{
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 /*styles to be applied to the benefit sections. reorganized to flow from the top down*/
 .benefits {
     margin-right: 20px;
@@ -105,23 +123,32 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /*Consolidation again turning 3 commands into 1*/
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 /*Consolidation again turning 3 commands into 1*/
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /*Consolidation again turning 3 commands into 1*/
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
 /*styles to be applied to the footer section*/
 .footer {
     padding: 30px;
