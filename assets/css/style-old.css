@@ -1,14 +1,14 @@
-/*The following CSS is to be applied to the entire page*/
+/*Original CSS file for Horiseon, DO NOT DELETE, Backup*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/*The following is to be applied to everything in the body*/
+
 body {
     background-color: #d9dcd6;
 }
-/*The following is to be applied to the header section*/
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,16 +41,16 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-/*applies style to the a sections*/
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/*applies style to the p sections*/
+
 p {
     font-size: 16px;
 }
-/*Specific style meant for the background image underneath the header*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -59,78 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*reorganized the style sheet for the flow, content > images > float"*/
-/*styles applied to the content section*/
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-/*styles used for the image orientation in the content section*/
+
 .float-left {
     float: left;
     margin-right: 25px;
-}
-/*reorganized all the content section to be near the other content styles*/
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
-/*styles to be applied to the benefit sections. reorganized to flow from the top down*/
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -190,8 +135,60 @@ p {
     max-width: 150px;
 }
 
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
-/*styles to be applied to the footer section*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .footer {
     padding: 30px;
     clear: both;
