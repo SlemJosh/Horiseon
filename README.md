@@ -20,7 +20,7 @@ is to have those images right on the HTML so that they can include those accessa
 Utilizing all the tools not only had me fix things now, but I am constantly finding other ways to continue to fix this specific project.
 
 ## Installation
-Deployed at (https://slemjosh.github.io/horiseon/)]
+Deployed at (https://slemjosh.github.io/horiseon/)
 
 ## Usage
 
