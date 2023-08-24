@@ -1,4 +1,5 @@
 /*The following CSS is to be applied to the entire page*/
+/* We want this to just be a page of boxes, and while we don't want them to be touching, we want them to be near enough and aligned.*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,11 +7,13 @@
 }
 
 /*The following is to be applied to everything in the body*/
+/*The background color will be the same once you get outside of the blue boxes */
 body {
     background-color: #d9dcd6;
 }
 
-/*The following is to be applied to the header section*/
+/*The following is to be applied to the header section
+We have a font family so that based on what browser people are using, if the first font is not available it will go through the list and hopefully find and use one that they have.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -35,6 +38,8 @@ body {
     font-size: 20px;
 }
 
+/*when I was revewing these notes, I noticed that ^ Calibri in the font family had no apostrophies. So I did some digging to find out that it is a Mac type font, and that is probably why it's not recognized in the font family as the others.
+However, if the user is viewing it on a Mac, and the previous 2 fonts are not present, I believe that it would end up defaulting to that just fine.*/
 .header div ul {
     list-style-type: none;
 }
@@ -51,11 +56,15 @@ a {
 }
 
 /*applies style to the p sections*/
+/*We want the text file in the paragraph sections to be a good size.*/
 p {
     font-size: 16px;
 }
 
 /*Specific style meant for the background image underneath the header*/
+/*This id is so that we can have an image provided solely by the style sheet vs on the HTML itself. 
+By doing this it also took away the ability to add an alt tag to the image file.  So instead of using an alt tag, we instead gave it a title tag so that should the image not load, people will have a box telling 
+them what the image is supposed to be displaying.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -85,7 +94,9 @@ p {
 }
 
 /*reorganized all the content section to be near the other content styles*/
-/*Consolidated the same styles into one command vs three seperate ones */
+/*Consolidated the same styles into one command vs three seperate ones 
+Initially each of those classes had their own sections, and each had the same exact instructions for the text and display properties. 
+Not sure if it helps the page load any different, but if nothing else it allows us to keep the stylesheet a little more condensed.*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -97,14 +108,19 @@ p {
     color: #ffffff;
 }
 
-/*Consolidated the same styles into one command vs three seperate ones */
+/*Consolidated the same styles into one command vs three seperate ones 
+Same as above, where each of the below images were looking to be displayed at the same value, so if we can save some steps by just having all of them done at the same time we can do that.
+*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-/*Consolidation of 3 commands into 1*/
+/*Consolidation of 3 commands into 1
+Similiarly to the two above consolidations, I wanted to make the stylesheet a little more condensed. After realizing I was doing this command for 3 objects over and over again, I thought maybe on
+a future assignment, perhaps it might be even more consolidated if instead of telling 3 classes/id's to do the same commands, I instead would just assign different classes and id's so that each img or title
+would instead be assigned to one class, rather than three individual ones.*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -112,7 +128,8 @@ p {
     font-size: 36px;
 }
 
-/*styles to be applied to the benefit sections. reorganized to flow from the top down*/
+/*styles to be applied to the benefit sections. reorganized to flow from the top down
+Initially this was in a different place, and I wanted the flow to be top to bottom, left to right. So that put this box right above the footer.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -124,7 +141,8 @@ p {
     background-color: #2589bd;
 }
 
-/*Consolidation again turning 3 commands into 1*/
+/*Consolidation again turning 3 commands into 1
+We changed the margins on all sides to 32px and had that backghround color be the same.*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -150,13 +168,14 @@ p {
 }
 
 /*styles to be applied to the footer section*/
+/*I chose h2 because I already have an h1 on the page, but I also thought as this is the footer I didn't want to upstage the big text above, so I made it a little smaller"*/
+.footer h2 {
+    font-size: 20px;
+}
+
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
